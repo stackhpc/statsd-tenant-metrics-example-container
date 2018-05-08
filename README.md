@@ -19,3 +19,11 @@ file in the proof of concept container using the docker
 `--link` option:
 
 `docker run -d --link monasca-agent-statsd stackhpc/statsd-demo`
+
+Example output
+--------------
+
+The following screenshot shows example output from this container,
+plotted in the Monasca fork of Grafana.
+
+![Screenshot](example_output.png)
